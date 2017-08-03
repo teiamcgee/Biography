@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/*ol, ul {
+	list-style: none;
+}*/
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*banner */
+.banner{
+  background-image: url("banner5.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  width: 100%;
+  border-style: solid;
+  border-color: purple;
+
+
+
+}
+/*body home page----------------------------------------------------------------*/
+body{
+background-color: pink;
+}
+.road2hire {
+  color: red;
+}
+
+/*H1 and H2 fonts home page */
+
+h1{
+font-family: 'Lobster Two', cursive;
+color: #FF3386;
+font-size: 85px;
+text-align: center;
+padding-top: 85px;
+}
+h2{
+font-family: 'Lobster Two', cursive;
+font-size: 35px;
+color: skyblue;
+}
+/*navigation bars*/
+.navbar li{
+  text-decoration: none;
+  display: inline;
+  padding: 30px;
+  border: 30px;
+  background-color: #FF3386;
+  border-radius: 100%;
+  font-family: 'Lobster Two', cursive;
+	font-size: 20px;
+}
+.navbar a{
+	text-decoration: none;
+}
+.navbar li:hover{
+  background-color: yellow;
+}
+/* home content page------------------------------------------------------------*/
+.content{
+  padding: 30px;
+  border: 10px;
+  border-style: none;
+  border-color: purple;
+  font-family: 'Lobster Two', cursive;
+  font-size: 35px;
+  color: yellow;
+}
+.home-content{
+font-family: 'Lobster Two', cursive;
+font-size: 20px;
+color: yellow;
+}
+
+
+/* Footer icons------------------------------------------------------------------*/
+.footer-icon{
+	width: 40px;
+	height: 40px;
+}
+/*Footer------------------------------------------------------------------------*/
+.footer{
+	text-align: center;
+	margin-top: 10%;
+}
+
+
+
+/*Resume page content-----------------------------------------------------------*/
+.resume{
+  color: black;
+
+}
+.resumeback {
+  background-repeat: repeat;
+}
+
+.resume-content{
+  width: 75%;
+  height: 100%;
+  margin-left: 150px;
+  background-color: white;
+  color: black;
+  line-height: 20px;
+	font-family: 'Oxygen', sans-serif;
+}
+.resumetitle{
+	font-family: 'Oxygen', sans-serif;
+	color: black;
+	font-size: 25px;
+
+}
+.resumelist {
+	padding: 25px;
+	text-decoration: auto;
+}
+/*contact page background-------------------------------------------------------*/
+.contactback{
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+/*bio page image-----------------------------------------------------------------*/
+.bio-pics{
+  text-align: center;
+  margin: auto 0;
+	margin-top: 40;
+}
+.myimage {
+border-radius: 100%;
+width: 300px;
+height: 300px;
+margin: 20px;
+}
+.myimage1 {
+border-radius: 100%;
+width: 300px;
+height: 300px;
+margin: 20px;
+transform: rotate(90deg);
+}
+/*Bio page content--------------------------------------------------------------*/
+.bio-header {
+  width: 75%;
+  height: 75%;
+  font-size: 40px;
+  margin: 0 auto;
+  }
+
+/*Gallery page background-------------------------------------------------------*/
+.galleryback{
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+/*Gallery pics-----------------------------------------------------------------*/
+
+.gallery-pics{
+  display: inline;
+  margin: 0 auto;
+}
+.gallery{
+  width: 300px;
+  height: 300px;
+  margin-top: 80px;
+  transform: rotate(90deg);
+  display: inline;
+}
+.gallery1{
+	width: 300px;
+	height: 300px;
+	margin-top: 80px;
+	display: inline;
+}
+
+/*Code pen page background-------------------------------------------------------*/
+.codepenback{
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* Media Query*/
+@media only screen and (max-width: 552px){
+.navbar  li {
+    display: inline;
+    padding: 15px;
+    width: 15%;
+  }
+
+  #resume-content{
+    margin: 0 auto;
+  }
+}
