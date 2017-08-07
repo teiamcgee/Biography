@@ -286,7 +286,7 @@ figcaption{
 	border-radius: 80px;
 }
 /* Media Query*/
-@media screen and (min-width: 380px){
+@media screen and (min-width: 280px){
 .navbar  li {
     display: block;
     padding: 10px;
