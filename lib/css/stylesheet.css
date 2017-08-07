@@ -1,3 +1,7 @@
+<!DOCTYPE HTML>
+<head>
+<meta charset="utf-8">
+<title>CSS</title>
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -53,12 +57,10 @@ table {
 /*body home page----------------------------------------------------------------*/
 body{
 background-color: pink;
-z-index: -1;
 }
 .road2hire {
   color: red;
 }
-
 /*H1 and H2 fonts home page */
 
 h1{
@@ -71,7 +73,7 @@ padding-top: 85px;
 h2{
 font-family: 'Lobster Two', cursive;
 font-size: 35px;
-color: skyblue;
+color: #00F2FF;
 }
 /*navigation bars*/
 .navbar li{
@@ -88,25 +90,21 @@ color: skyblue;
 	text-decoration: none;
 }
 .navbar li:hover{
-  background-color: yellow;
+  background-color: #FFFF00;
 }
 /* home content page------------------------------------------------------------*/
 .content{
-  padding: 30px;
-  border: 10px;
-  border-style: none;
-  border-color: purple;
+  padding: 60px;
   font-family: 'Lobster Two', cursive;
-  font-size: 35px;
+  font-size: 25px;
   color: yellow;
-}
-.home-content{
-font-family: 'Lobster Two', cursive;
-font-size: 20px;
-color: yellow;
-}
+	line-height: 45px;
 
-
+}
+.home-title{
+	font-size: 40px;
+	padding-bottom: 30px;
+}
 /* Footer icons------------------------------------------------------------------*/
 .footer-icon{
 	width: 40px;
@@ -121,9 +119,24 @@ color: yellow;
 
 
 /*Resume page content-----------------------------------------------------------*/
+h3,
+h4{
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 10px;
+}
+h5{
+	text-decoration: underline;
+	line-height: 30px;
+}
+h2{
+	font-size: 15px;
+	line-height: 25px;
+}
+
 .resume{
   color: black;
-
 }
 .resumeback {
   background-repeat: repeat;
@@ -145,29 +158,50 @@ color: yellow;
 	font-family: 'Oxygen', sans-serif;
 	color: black;
 	font-size: 25px;
+}
+.resumelist{
+	text-decoration: none;
+	padding: 20px;
+}
 
-}
-.resumelist {
-	padding: 25px;
-	text-decoration: auto;
-}
 /*contact page background-------------------------------------------------------*/
-.contactback{
-background-repeat: no-repeat;
-background-size: cover;
-
+#contact-background{
+  background-image: url("../img/contact.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*Contact page form--------------------------------------------------------------*/
+#form{
+	border: thick black solid;
+	background-color: #FF69B4;
+	border-radius: 20px;
+	font-family: 'Lobster Two', cursive;
+	font-size: 20px;
+	line-height: 40px;
+	color: black;
+	background: #FF3386;;
+}
+.form-content{
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+	margin-top: 25px;
+}
+#submitbtn{
+	text-align: center;
 }
 /*bio page image-----------------------------------------------------------------*/
 .bio-pics{
   text-align: center;
   margin: auto 0;
-	margin-top: 40;
+	margin-top: 40px;
 }
 .myimage {
 border-radius: 100%;
 width: 300px;
 height: 300px;
 margin: 20px;
+margin-top: 10%;
 }
 .myimage1 {
 border-radius: 100%;
@@ -177,55 +211,213 @@ margin: 20px;
 transform: rotate(90deg);
 }
 /*Bio page content--------------------------------------------------------------*/
-.bio-header {
+#bio-header {
   width: 75%;
   height: 75%;
   font-size: 40px;
   margin: 0 auto;
   }
-
-/*Gallery page background-------------------------------------------------------*/
-.galleryback{
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  }
+table{
+	border: thin blue solid;
+}
 /*Gallery pics-----------------------------------------------------------------*/
 
+figure {
+  float: right;
+  width: 30%;
+  text-align: center;
+  text-indent: 0;
+  border: thick blue solid;
+  margin: 0.5em;
+  padding: 0.5em;
+	font-family: 'Lobster Two', cursive;
+	border-radius: 150px;
+	color: purple;
+}
+figcaption{
+	font-size: 30px;
+	line-height: 45px;
+}
 .gallery-pics{
-  display: inline;
-  margin: 0 auto;
+	padding-top: 50px;
 }
 .gallery{
   width: 300px;
   height: 300px;
   margin-top: 80px;
   transform: rotate(90deg);
-  display: inline;
+}
+.gallery2{
+  width: 300px;
+  height: 300px;
+  margin-top: 80px;
+  transform: rotate(270deg);
 }
 .gallery1{
 	width: 300px;
 	height: 300px;
 	margin-top: 80px;
-	display: inline;
 }
 
 /*Code pen page background-------------------------------------------------------*/
-.codepenback{
+#codepen-background{
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-image: url("../img/codepen.jpeg");
 }
-
+/*Code pen content -------------------------------------------------------------*/
+.codepen-content{
+	width: 50%;
+	height: 20%;
+	display: block;
+	padding-top: 90px;
+	border: thick black solid;
+	background-color: black;
+	color: white;
+	border-radius: 80px;
+	padding: 30px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+.codepen-icon{
+	width: 20%;
+	height: 20%;
+	border-radius: 80px;
+}
 /* Media Query*/
-@media only screen and (max-width: 552px){
+@media screen and (min-width: 380px){
 .navbar  li {
-    display: inline;
-    padding: 15px;
-    width: 15%;
+    display: block;
+    padding: 10px;
+    width: 20%;
+		height: 15%;
+		line-height; 10px;
   }
-
-  #resume-content{
+	.gallery-pics,
+	 .figure-pics{
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.resume-content{
     margin: 0 auto;
   }
+	form,
+	input{
+		width: 90%;
+	}
+		textarea{
+		width: 70%;
+		}
+	.form-content{
+		margin: 0 auto;
+	}
+	#submitbtn{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#gallery-footer{
+	clear: both;
+	}
+}
+@media screen and (min-width: 380px) and (max-width: 900px){
+	.navbar  li {
+	    display: inline-block;
+	    padding: 10px;
+	    width: 20%;
+			height: 15%;
+			line-height; 10px;
+			text-align: center;
+	  }
+		form,
+		input{
+			width: 90%;
+		}
+		textarea{
+		width: 70%;
+		}
+		.gallery-pics{
+			margin: 0 auto;
+		}
+		.figure-pics{
+			display: inline;
+			padding: 30px;
+			width: 50%;
+			margin: 0 auto;
+			overflow: auto;
+		}
+		img{
+			margin: auto 0;
+		}
+		.footer{
+			margin-top: 70%;
+		}
+		.resume-content{
+	    margin: 0 auto;
+	  }
+		#submitbtn{
+			width: 100%;
+			margin: 0 auto;
+		}
+		#gallery-footer{
+		clear: both;
+		}
+}
+@media screen and (min-width: 900px) and (max-width: 2433px){
+	.navbar  li {
+		text-decoration: none;
+	  display: inline;
+	  padding: 30px;
+	  border: 30px;
+	  background-color: #FF3386;
+	  border-radius: 100%;
+	  font-family: 'Lobster Two', cursive;
+		font-size: 20px;
+	  }
+		form,
+		input{
+			width: 90%;
+		}
+		textarea{
+		width: 70%;
+		}
+		.figure-pics {
+		  float: right;
+		  width: 30%;
+		  text-align: center;
+		  text-indent: 0;
+		  border: thick blue solid;
+		  margin: 0.5em;
+		  padding: 0.5em;
+			font-family: 'Lobster Two', cursive;
+			border-radius: 150px;
+			color: purple;
+			border-width: 20%;
+			overflow: auto;
+		}
+		.figcaption{
+			font-size: 30px;
+			line-height: 45px;
+		}
+		.gallery-pics{
+			padding-top: 50px;
+			margin: 0 auto;
+		}
+		#gallery-footer{
+		clear: both;
+		}
+	.resume-content{
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 2000px){
+	#gallery-footer{
+		position: relative;
+		bottom: 0;
+	}
+	#submitbtn{
+		width: 20%;
+		margin: 0 auto;
+	}
 }

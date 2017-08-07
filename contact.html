@@ -1,12 +1,15 @@
 <!DOCTYPE HTML>
 <html>
-<head>
+<head lang="en">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>My Contact page</title>
   <link type="text/css" rel="stylesheet" href="lib/css/stylesheet.css" />
   <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+  <script src="lib/js/javascript.js"></script>
 </head>
-<body class="contactback" background="lib/img/contact.jpeg">
+<body id="contact-background">
+  <section>
   <nav>
     <ul class="navbar">
       <li><a href="./index.html">Home</a></li>
@@ -15,30 +18,41 @@
       <li><a href="./Resume.html">Resume</a></li>
       <li><a href="./Codepen.html">Codepen</a></li>
     </ul>
+  </nav>
+</section>
+  <section>
+    <h1>Let's keep in touch!</h1>
     <div class="form-content">
-      <form>
-        <h1>Want to contact me?</h1>
+      <form id="form" name="form" action="" onsubmit="return validateForm()" method="Get">
           <div>
-            <label for="fname">First Name <input type="text" id="fname" name="fname" value="" placeholder="First Name" /></label>
+            <label for="fname">First Name<input type="text" id="fname" name="fname" placeholder="First Name"/></label>
           </div>
           <div>
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lname" value="" placeholder="Last Name"/>
+            <input type="text" id="lname" name="lname"placeholder="Last Name"/>
+          </div>
+          <div>
+            <label for="Company">Company</label>
+            <input type="text" id="Company" name="Company" placeholder="Company"/>
           </div>
           <div>
             <label for="email">Email<input type="email" id="email" name="email" placeholder="Email"/></label>
           </div>
-          <textarea placeholder="Please add comments here..." cols="80" rows="10" name="lifestory" id="Comments"></textarea>
-           <div>
+          <div>
+            <p>Comments:</p>
+          <textarea placeholder="Please add comments here..." cols="80" rows="10" name="comments" id="Comments"></textarea>
+        </div>
+        <div id="submitbtn">
+         <input type="submit" name="submit" value="Submit"/>
+       </div>
       </form>
     </div>
-
-  </nav>
-  <footer>
+  </section>
     <div class="footer">
+  <footer>
       <a href="https://www.linkedin.com/in/teia-taylor-mcgee-4a153354"><img src="lib/img/linkedin.png" alt="LinkedIn" class="footer-icon"></a>
-      <a href="http://road2hire.org"><img src="lib/img/road2hire.jpeg" alt"road2Hire" class="footer-icon"><a/>
-    </div>
+      <a href="http://road2hire.org"><img src="lib/img/road2hire.jpeg" alt="road2Hire" class="footer-icon"></a>
   </footer>
+</div>
 </body>
 </html>
