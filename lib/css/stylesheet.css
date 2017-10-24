@@ -45,66 +45,88 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body{
+	background-color: rgba(249, 159, 123, 0.94);
+	position: relative;
+
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Marcellus', serif;
+	line-height: 35px;
+}
 /*banner */
 .banner{
-  background-image:url("../img/banner-image.jpeg");
-  height: 50%;
-	width: 100%;
-  border-color: purple;
-	background-repeat: no-repeat;
+	padding: 120px;
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-image: url("https://images.pexels.com/photos/395132/pexels-photo-395132.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
 	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.bannerToggleContainer{
+	width: 45px;
+	height: 40px;
+	border: 2px black solid;
+}
+
+.bannerToggle1, .bannerToggle2, .bannerToggle3{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px auto;
 }
 /*body home page----------------------------------------------------------------*/
-body{
-background-color: pink;
-}
-.road2hire {
-  color: red;
-}
-/*H1 and H2 fonts home page */
 
-h1{
-font-family: 'Lobster Two', cursive;
-color: #FF3386;
-font-size: 85px;
-text-align: center;
-padding-top: 85px;
+.homepage-container{
+	width: 40%;
+	height: 100%;
+	border: 6px rgba(255, 201, 92, 1)  solid;
+	padding: 180px;
+	margin: 0 auto;
+	margin-top: 20px;
 }
-h2{
-font-family: 'Lobster Two', cursive;
-font-size: 35px;
-color: #00F2FF;
+
+.homepage-content1{
+	width: 100%;
+	height: 50%;
+	border: 2px rgba(255, 201, 92, 1) solid;
+	padding: 80px;
+	display: inline;
+	margin-right: 120px;
 }
-/*navigation bars*/
+
+.homepage-content2{
+	width: 100%;
+	height: 50%;
+	border: 2px rgba(255, 201, 92, 1) solid;
+	padding: 80px;
+	display: inline;
+}
+
+/*navigation bar*/
 .navbar li{
   text-decoration: none;
-  display: inline;
-  padding: 30px;
-  border: 30px;
-  background-color: #FF3386;
-  border-radius: 100%;
-  font-family: 'Lobster Two', cursive;
-	font-size: 20px;
+	list-style: none;
+	margin: 30px;
+	display: inline;
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
 }
+
+.navbar li:hover{
+	background-color: rgba(255, 201, 92, 1);
+}
+
 .navbar a{
 	text-decoration: none;
 }
-.navbar li:hover{
-  background-color: #FFFF00;
-}
-/* home content page------------------------------------------------------------*/
-.content{
-  padding: 60px;
-  font-family: 'Lobster Two', cursive;
-  font-size: 25px;
-  color: yellow;
-	line-height: 45px;
 
-}
-.home-title{
-	font-size: 40px;
-	padding-bottom: 30px;
-}
 /* Footer icons------------------------------------------------------------------*/
 .footer-icon{
 	width: 40px;
@@ -119,67 +141,16 @@ color: #00F2FF;
 
 
 /*Resume page content-----------------------------------------------------------*/
-h3,
-h4{
-	text-align: center;
-	font-size: 20px;
-	line-height: 30px;
-	margin-top: 10px;
-}
-h5{
-	text-decoration: underline;
-	line-height: 30px;
-}
-h2{
-	font-size: 15px;
-	line-height: 25px;
-}
-
-.resume{
-  color: black;
-}
-.resumeback {
-  background-repeat: repeat;
-	background-image: url("../img/resume.jpeg");
-	width: 100%;
-	height: 100%;
-}
-
 .resume-content{
-  width: 75%;
-  height: 100%;
-  margin-left: 150px;
-  background-color: white;
-  color: black;
-  line-height: 20px;
-	font-family: 'Oxygen', sans-serif;
-}
-.resumetitle{
-	font-family: 'Oxygen', sans-serif;
+	width: 80%;
+	margin: 0 auto;
 	color: black;
-	font-size: 25px;
-}
-.resumelist{
-	text-decoration: none;
-	padding: 20px;
-}
-
-/*contact page background-------------------------------------------------------*/
-#contact-background{
-  background-image: url("../img/contact.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 /*Contact page form--------------------------------------------------------------*/
 #form{
-	border: thick black solid;
-	background-color: #FF69B4;
-	border-radius: 20px;
-	font-family: 'Lobster Two', cursive;
 	font-size: 20px;
 	line-height: 40px;
 	color: black;
-	background: #FF3386;;
 }
 .form-content{
 	margin: 0 auto;
@@ -190,234 +161,135 @@ h2{
 #submitbtn{
 	text-align: center;
 }
-/*bio page image-----------------------------------------------------------------*/
-.bio-pics{
-  text-align: center;
-  margin: auto 0;
-	margin-top: 40px;
-}
-.myimage {
-border-radius: 100%;
-width: 300px;
-height: 300px;
-margin: 20px;
-margin-top: 10%;
-}
-.myimage1 {
-border-radius: 100%;
-width: 300px;
-height: 300px;
-margin: 20px;
-transform: rotate(90deg);
-}
+
 /*Bio page content--------------------------------------------------------------*/
-#bio-header {
-  width: 75%;
-  height: 75%;
-  font-size: 40px;
-  margin: 0 auto;
-  }
-table{
-	border: thin blue solid;
-}
+
 /*Gallery pics-----------------------------------------------------------------*/
 
-figure {
-  float: right;
-  width: 30%;
-  text-align: center;
-  text-indent: 0;
-  border: thick blue solid;
-  margin: 0.5em;
-  padding: 0.5em;
-	font-family: 'Lobster Two', cursive;
-	border-radius: 150px;
-	color: purple;
-}
-figcaption{
-	font-size: 30px;
-	line-height: 45px;
-}
 .gallery-pics{
-	padding-top: 50px;
-}
-.gallery{
-  width: 300px;
-  height: 300px;
-  margin-top: 80px;
-  transform: rotate(90deg);
-}
-.gallery2{
-  width: 300px;
-  height: 300px;
-  margin-top: 80px;
-  transform: rotate(270deg);
-}
-.gallery1{
-	width: 300px;
-	height: 300px;
-	margin-top: 80px;
+	width: 500px;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
-/*Code pen page background-------------------------------------------------------*/
-#codepen-background{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../img/codepen.jpeg");
+.gallery-pics img{
+  width: 500px;
+  height: 500px;
+  background-position: 70px 70px;
+  margin-top: 100px;
+  padding: 20px;
+	border: 2px rgba(255, 201, 92, 1)  solid;
+}
+
+.Ilios{
+ font-family: 'Gloria Hallelujah', cursive;
+ color: blue;
+ font-size: 40px;
+ position: absolute;
+ top: 30%;
+ transform: skew(10deg,10deg);
+ left: 30px;
+}
+
+.Ilios:hover{
+	transform: scale(1,2);
+}
+
+.classroom:hover{
+	transform: scale(1,2);
+}
+.classroom{
+	font-family: 'Righteous', cursive;
+	color: red;
+	font-size: 40px;
+	position: absolute;
+	left: 80%;
+	top: 30%;
+}
+.RV{
+	font-family: 'Contrail One', cursive;
+	color: green;
+	font-size: 40px;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+}
+
+.RV:hover{
+	transform: scale(1,2);
+}
+
+.React{
+	font-family: 'Monoton', cursive;
+	color: purple;
+	font-size: 40px;
+	position: absolute;
+	top: 70%;
+	left: 25px;
+	transform: skew(10deg,10deg);
+}
+.React:hover{
+	transform: scale(1,2);
+}
+
+.fusion{
+	font-family: 'Luckiest Guy', cursive;
+	color: pink;
+	font-size: 40px;
+	position: absolute;
+	left: 80%;
+	top: 50%;
+  transform: skew(5deg,5deg)
+}
+
+.fusion:hover{
+	transform: scale(1,2);
+}
+.clothing{
+	font-family: 'Cabin Sketch', cursive;
+	color: yellow;
+	font-size: 40px;
+	position: absolute;
+	left: 80%;
+	top: 70%;
+	transform: skew(10deg,10deg);
+}
+
+.clothing:hover{
+	transform: scale(1,2);
 }
 /*Code pen content -------------------------------------------------------------*/
 .codepen-content{
 	width: 50%;
-	height: 20%;
-	display: block;
-	padding-top: 90px;
-	border: thick black solid;
-	background-color: black;
-	color: white;
-	border-radius: 80px;
-	padding: 30px;
 	margin: 0 auto;
-	margin-bottom: 40px;
 	margin-top: 20px;
+	border-radius: 20px;
 }
-.codepen-icon{
-	width: 20%;
-	height: 20%;
-	border-radius: 80px;
+.cookiebook{
+	position: absolute;
+	top: 30%;
+	height: 30%;
+	width: 15%;
+	border: 2px black solid;
+	left: 50px;
 }
-/* Media Query*/
-@media screen and (min-width: 280px){
-.navbar  li {
-    display: block;
-    padding: 10px;
-    width: 20%;
-		height: 15%;
-		line-height; 10px;
-  }
-	.gallery-pics,
-	 .figure-pics{
-		display: block;
-		width: 100%;
-		margin: 0 auto;
-	}
-	.resume-content{
-    margin: 0 auto;
-  }
-	form,
-	input{
-		width: 90%;
-	}
-		textarea{
-		width: 70%;
-		}
-	.form-content{
-		margin: 0 auto;
-	}
-	#submitbtn{
-		width: 100%;
-		margin: 0 auto;
-	}
-	#gallery-footer{
-	clear: both;
-	}
+
+.guessinggame{
+	position: absolute;
+	top: 30%;
+	height: 30%;
+	width: 15%;
+	border: 2px black solid;
+	left: 80%;
 }
-@media screen and (min-width: 380px) and (max-width: 900px){
-	.navbar  li {
-	    display: inline-block;
-	    padding: 10px;
-	    width: 20%;
-			height: 15%;
-			line-height; 10px;
-			text-align: center;
-	  }
-		form,
-		input{
-			width: 90%;
-		}
-		textarea{
-		width: 70%;
-		}
-		.gallery-pics{
-			margin: 0 auto;
-		}
-		.figure-pics{
-			display: inline;
-			padding: 30px;
-			width: 50%;
-			margin: 0 auto;
-			overflow: auto;
-		}
-		img{
-			margin: auto 0;
-		}
-		.footer{
-			margin-top: 70%;
-		}
-		.resume-content{
-	    margin: 0 auto;
-	  }
-		#submitbtn{
-			width: 100%;
-			margin: 0 auto;
-		}
-		#gallery-footer{
-		clear: both;
-		}
+
+/*Contact page------------------------------------------------------------------*/
+form{
+	padding-left: 30px;
 }
-@media screen and (min-width: 900px) and (max-width: 2433px){
-	.navbar  li {
-		text-decoration: none;
-	  display: inline;
-	  padding: 30px;
-	  border: 30px;
-	  background-color: #FF3386;
-	  border-radius: 100%;
-	  font-family: 'Lobster Two', cursive;
-		font-size: 20px;
-	  }
-		form,
-		input{
-			width: 90%;
-		}
-		textarea{
-		width: 70%;
-		}
-		.figure-pics {
-		  float: right;
-		  width: 30%;
-		  text-align: center;
-		  text-indent: 0;
-		  border: thick blue solid;
-		  margin: 0.5em;
-		  padding: 0.5em;
-			font-family: 'Lobster Two', cursive;
-			border-radius: 150px;
-			color: purple;
-			border-width: 20%;
-			overflow: auto;
-		}
-		.figcaption{
-			font-size: 30px;
-			line-height: 45px;
-		}
-		.gallery-pics{
-			padding-top: 50px;
-			margin: 0 auto;
-		}
-		#gallery-footer{
-		clear: both;
-		}
-	.resume-content{
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 2000px){
-	#gallery-footer{
-		position: relative;
-		bottom: 0;
-	}
-	#submitbtn{
-		width: 20%;
-		margin: 0 auto;
-	}
+.form-content{
+	background-image: url("https://images.pexels.com/photos/267389/pexels-photo-267389.jpeg?h=350&auto=compress&cs=tinysrgb");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 5%;
 }
