@@ -10,15 +10,21 @@
     </div>
   <section>
   <div class="bio-pics">
-    <img src="lib/img/IMG-0057.JPG" alt="Teia-Taylor McGee" class="myimage">
-    <img src="lib/img/IMG-0059.JPG" alt="Teia-Taylor McGee" class="myimage">
-    <img src="lib/img/mywork.JPG" alt="Teia-Taylor McGee" class="myimage1">
+    <div class="bio-pic1">
+      <img src="lib/img/TEIA.JPG" alt="Teia-Taylor McGee" class="myimage">
+    </div>
+    <div class="bio-pic">
+      <img src="lib/img/TTRM.JPG" alt="Teia-Taylor McGee" class="myimage">
+    </div>
+    <div class="bio-pic1">
+      <img src="lib/img/TM.JPG" alt="Teia-Taylor McGee" class="myimage1">
+    </div>
   </div>
 </section>
 <section>
   <article>
   <div class="bio-content">
-    <h1 id="bio-header">The sky is the limit only for people that believe in limits. The reason why I am interested in technology is simple, I believe it is our future. I believe I can be a beneficial partner and, create new and better computer software".</h1>
+    <h1 id="bio-header">" The sky is the limit is only for people that believe in limits. My dreams will change the world starting with html tag at a time."</h1>
   </div>
   <div>
   </div>

@@ -12,8 +12,8 @@
     <article>
       <div class="resume-content">
         <h1>Teia-Taylor McGee | 4511  Rose vine place | Charlotte NC, 28217 | teiataylor.m@gmail.com</h1>
-           <p>Highly motivated and career-driven aspiring Web Developer, I have a diverse array of skills including
-problem solving, time management, and a positive goal-driven attitude.</p>
+           <h2>Highly motivated and career-driven aspiring Web Developer, I have a diverse array of skills including
+problem solving, time management, and a positive goal-driven attitude.</h2>
           <div class="skillList">
             <h3>Skills:</h3>
             <ul class="skillList">
@@ -22,9 +22,9 @@ problem solving, time management, and a positive goal-driven attitude.</p>
               <li>Knowledgeable in GitHub, Git, Codepen, and Atom text editor.</li>
             </ul>
           </div>
-          <h4>Experience:</h4>
-          <h5>Road2Hire</h5>
-          <p>Aspiring Web Designer | Fort Mill, SC | Current</p>
+          <h3>Experience:</h3>
+          <h4>Road2Hire</h4>
+          <p>Aspiring Web Designer | Fort Mill, SC | Graduated</p>
           <div class="resumelist">
             <ul class="resumelist">
               <li>Create webpages using HTML, CSS, Javascrpt, jQuery, and PHP</li>
@@ -32,7 +32,7 @@ problem solving, time management, and a positive goal-driven attitude.</p>
               <li>Collabrate with team members to effectly complete projects.</li>
             </ul>
         </div>
-        <h5>McDonalds Corporation</h5>
+        <h4>McDonalds Corporation</h4>
         <p>Customer Service Representative | Cary, NC | 08/15- 7/16</p>
           <div class="resumelist">
             <ul>
@@ -41,8 +41,8 @@ problem solving, time management, and a positive goal-driven attitude.</p>
               <li>Resolved complaints promptly and professionally.</li>
             </ul>
          </div>
-        <h5>Xerox Corporation</h5>
-        <p>Customer Service Representative| Cary, NC | 12/14-7/15 </p>
+        <h4>Xerox Corporation</h4>
+        <p>Customer Service Representative | Cary, NC | 12/14-7/15 </p>
           <div class="resumelist">
             <ul>
               <li>Resolve customer complaints via phone, email, mail, or social media.</li>
@@ -50,7 +50,7 @@ problem solving, time management, and a positive goal-driven attitude.</p>
               <li>Greet customers warmly and ascertain problem or reason for calling.</li>
             </ul>
           </div>
-        <h5>Taco Bell</h5>
+        <h4>Taco Bell</h4>
         <p>Customer Service Representative | Raleigh, NC | 02/14-12/14</p>
           <div class="resumelist">
             <ul>
@@ -60,13 +60,12 @@ problem solving, time management, and a positive goal-driven attitude.</p>
             </ul>
           </div>
           <h4>Education:</h4>
-          <p>James Benson Dudley High school  |	Greensboro, NC  | 2012</p>
+          <p>James Benson Dudley High school  |	Greensboro, NC  | Graduated</p>
           <p>Central Piedmont Community College	 | Charlotte, NC 	| 2016 </p>
         </div>
       </div>
     </article>
     </section>
-    <script src="lib/js/javascript.js"></script>
   <?php
     include "footer.php";
    ?>

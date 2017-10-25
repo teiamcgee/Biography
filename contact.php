@@ -12,7 +12,7 @@
     <?php include "inc/navigation.php" ?>
     </div>
   <section>
-    <h1>Let's keep in touch!</h1>
+    <h1 class="contact-h1">I'm so excited to hear from you!</h1>
     <div class="form-content">
        <form id="form" name="form" action="thankyou.php"  method="POST">
           <div>

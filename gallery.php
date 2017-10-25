@@ -9,7 +9,7 @@
     <?php include "inc/navigation.php" ?>
     </div>
 <section>
-  <h1>The Adventure</h1>
+  <h1 class="gallery-h1">The Adventure</h1>
   <div class="gallery-pics">
     <img src="lib/img/react.JPG" alt="React Problem">
     <img src="lib/img/clothingdrive.JPG" alt="R2Hire clothing drive">

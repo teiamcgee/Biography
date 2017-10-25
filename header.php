@@ -20,3 +20,6 @@ crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Contrail+One|Gloria+Hallelujah|Luckiest+Guy|Monoton|Righteous" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Marcellus" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">

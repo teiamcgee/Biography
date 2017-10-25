@@ -121,6 +121,7 @@ h1{
 
 .navbar li:hover{
 	background-color: rgba(255, 201, 92, 1);
+	border-radius: 10px;
 }
 
 .navbar a{
@@ -141,30 +142,78 @@ h1{
 
 
 /*Resume page content-----------------------------------------------------------*/
+.resume{
+	margin-top: 40px;
+}
+
 .resume-content{
 	width: 80%;
 	margin: 0 auto;
 	color: black;
+	border: 30px solid transparent;
+	 padding: 15px;
+	 border-image: url("https://images.pexels.com/photos/68507/spring-flowers-flowers-collage-floral-68507.jpeg?h=350&auto=compress&cs=tinysrgb") 10 stretch;
+	 line-height: 30px;
 }
-/*Contact page form--------------------------------------------------------------*/
-#form{
-	font-size: 20px;
-	line-height: 40px;
-	color: black;
-}
-.form-content{
-	margin: 0 auto;
-	width: 50%;
-	height: 50%;
-	margin-top: 25px;
-}
-#submitbtn{
+
+.resume-content h2{
+	font-weight: normal;
 	text-align: center;
+}
+.resume-content h1{
+	font-weight: normal;
+	text-align: center;
+	line-height: 37px;
 }
 
 /*Bio page content--------------------------------------------------------------*/
+.bio-pic1 img{
+	transform: rotate(90deg);
+	position: relative;
+	 width:  200px;
+	 height: 200px;
+	 background-position: 50% 50%;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 border-radius: 100%;
+}
+.bio-pic img{
+	position: relative;
+	 width:  200px;
+	 height: 200px;
+	 background-position: 70% 70%;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 border-radius: 100%;
+}
+.bio-pic1{
+	margin-left: 10%;
+}
+.bio-pics{
+	margin-left: 10%;
+	margin-top: 10%;
+}
+.bio-content{
+	position: absolute;
+	top: 35%;
+	width: 50%;
+	right: 5%;
+}
+
+#bio-header{
+	font-family: 'Fascinate Inline', cursive;
+	line-height: 50px;
+	color: yellow;
+}
 
 /*Gallery pics-----------------------------------------------------------------*/
+
+.gallery-h1{
+	font-family: 'Fascinate Inline', cursive;
+	font-size: 50px;
+	color: yellow;
+	text-decoration: underline;
+}
 
 .gallery-pics{
 	width: 500px;
@@ -259,11 +308,26 @@ h1{
 	transform: scale(1,2);
 }
 /*Code pen content -------------------------------------------------------------*/
+.codepen-h1{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+	color: blue;
+	margin-top: 5%;
+}
+.codepen-container{
+	margin-top: 135px;
+
+}
 .codepen-content{
 	width: 50%;
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 50px;
 	border-radius: 20px;
+}
+
+.codepen-content p{
+	font-weight: bold;
+	font-size: 20px;
 }
 .cookiebook{
 	position: absolute;
@@ -272,8 +336,22 @@ h1{
 	width: 15%;
 	border: 2px black solid;
 	left: 50px;
+	background-image: url("https://images.pexels.com/photos/545331/pexels-photo-545331.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Luckiest Guy', cursive;
+	line-height: 50px;
+	font-size: 30px;
+	text-align: center;
 }
 
+.cookiebook a{
+	text-decoration: none;
+}
+
+.guessinggame a{
+	text-decoration: none;
+}
 .guessinggame{
 	position: absolute;
 	top: 30%;
@@ -281,15 +359,49 @@ h1{
 	width: 15%;
 	border: 2px black solid;
 	left: 80%;
+	background-image: url("https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?h=350&auto=compress&cs=tinysrgb");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Luckiest Guy', cursive;
+	line-height: 50px;
+	font-size: 30px;
+	text-align: center;
 }
 
 /*Contact page------------------------------------------------------------------*/
+.contact-h1{
+	color: yellow;
+	font-size: 50px;
+}
 form{
 	padding-left: 30px;
+	margin-top: 10%;
 }
 .form-content{
-	background-image: url("https://images.pexels.com/photos/267389/pexels-photo-267389.jpeg?h=350&auto=compress&cs=tinysrgb");
+	background-image: url("https://images.pexels.com/photos/3768/sky-sunny-clouds-cloudy.jpg?w=940&h=650&auto=compress&cs=tinysrgb");
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 5%;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+}
+.form-content input{
+	margin: 10px;
+}
+
+#form{
+	font-size: 20px;
+	line-height: 40px;
+	color: black;
+	padding: 20px;
+}
+.form-content{
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+	margin-top: 25px;
+}
+#submitbtn{
+	text-align: center;
 }
