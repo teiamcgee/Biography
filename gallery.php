@@ -20,22 +20,22 @@
 
   </div>
   <div>
-    <h2 class="Ilios">Ilios Cafe</h2>
+    <p class="Ilios">Ilios Cafe</p>
   </div>
   <div>
-    <h2 class="classroom">Working Hard In Class</h2>
+    <p class="classroom">Working Hard In Class</p>
   </div>
   <div>
-    <h2 class="RV">RV Building</h2>
+    <p class="RV">RV Building</på>
   </div>
   <div>
-    <h2 class="React">React</h2>
+    <p class="React">React</p>
   </div>
   <div>
-    <h2 class="fusion">Fusion Conference</h2>
+    <p class="fusion">Fusion Conference</p>
   </div>
   <div>
-    <h2 class="clothing">Clothing Drive</h2>
+    <p class="clothing">Clothing Drive</p>
   </div>
   <script src="lib/js/javascript.js"></script>
 </section>

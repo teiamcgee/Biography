@@ -26,7 +26,23 @@
   <div class="bio-content">
     <h1 id="bio-header">" The sky is the limit is only for people that believe in limits. My dreams will change the world starting with html tag at a time."</h1>
   </div>
-  <div>
+  <div class="bio-info">
+    <h2>Offical Information</h2>
+    <h3>Known Languages</h3>
+    <ul>
+      <li>javascript</li>
+      <li>PHP</li>
+      <li>CSS</li>
+      <li>HTML</li>
+      <li>jQuery</li>
+    </ul>
+    <h3>Goals</h3>
+    <ol>
+      <li>Spread Peace, Love, and Happiness</li>
+      <li>Become a Master Front-End Developer</li>
+      <li>To spread 50 bad dad jokes per hour</li>
+      <li>Travel and explore different cultures</li>
+    </ol>
   </div>
 </article>
 </section>

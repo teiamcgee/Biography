@@ -116,7 +116,7 @@ h1{
 	margin: 30px;
 	display: inline;
 	font-family: 'Roboto Slab', serif;
-	font-size: 25px;
+	font-size: 23px;
 }
 
 .navbar li:hover{
@@ -201,11 +201,31 @@ h1{
 }
 
 #bio-header{
-	font-family: 'Fascinate Inline', cursive;
-	line-height: 50px;
+	font-family: 'Satisfy', cursive;
+	line-height: 60px;
 	color: yellow;
+	font-size: 50px;
+	margin: 2%;
 }
 
+.bio-info{
+	position: absolute;
+	right: 5%;
+	top: 59%;
+	border: 2px yellow dashed;
+	width: 40%;
+	line-height: 30px;
+	font-family: 'Cinzel', serif;
+	font-size: 15px;
+	border-radius: 100px;
+}
+.bio-info h2{
+	text-align: center;
+}
+
+.bio-info h3, ul, ol{
+	margin-left: 10%;
+}
 /*Gallery pics-----------------------------------------------------------------*/
 
 .gallery-h1{
