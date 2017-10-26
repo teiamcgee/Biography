@@ -1,6 +1,7 @@
 <section>
       <div>
       <nav>
+        <!--NavBar page connections  -->
         <ul class="navbar">
           <li><a href="./index.php">Home</a></li>
           <li><a href="./codepen.php">Codepen</a></li>
