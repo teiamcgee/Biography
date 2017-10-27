@@ -15,8 +15,8 @@
           <div class="resume">
             <!-- Resume information -->
             <div class="resume-content">
-              <h1>Teia-Taylor McGee | 4511  Rose vine place | Charlotte NC, 28217 | teiataylor.m@gmail.com</h1>
-                 <h2>Highly motivated and career-driven aspiring Web Developer, I have a diverse array of skills including
+              <h1>Teia-Taylor McGee | 4511  Rose vine place | Charlotte NC, 28217 | teiataylor.m@gmail.com | Cell: 919 - 454 -7716</h1>
+                 <h2>Highly motivated and career-driven aspiring Front-End Web Developer, I have a diverse array of skills including
       problem solving, time management, and a positive goal-driven attitude.</h2>
                 <div class="skillList">
                   <h3>Skills:</h3>
