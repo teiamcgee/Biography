@@ -36,10 +36,10 @@
     <aside>
       <!-- React challenges -->
       <div class="cookiebook">
-        <a href="facebook"><h2>Discover and join in on the Cookie Book</h2></a>
+        <a href="biography/facebook"><h2>Discover and join in on the Cookie Book</h2></a>
       </div>
       <div class="guessinggame">
-        <a href="react-quiz"><h2>Try you luck at the Number Guessing game</h2></a>
+        <a href="biography/quiz"><h2>Try you luck at the Number Guessing game</h2></a>
       </div>
     </aside>
   </section>
